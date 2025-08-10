@@ -6,7 +6,7 @@
  */
 
 import { Command } from 'commander';
-import { Intent } from '@intentproof/core';
+import { Intent } from '../../core/src/intent';
 import chalk from 'chalk';
 import ora from 'ora';
 import * as fs from 'fs';
