@@ -1,0 +1,33 @@
+{
+  "name": "intentproof",
+  "version": "0.1.0",
+  "description": "AI Intent Verification Framework - Prove what AI actually did",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "dev:cli": "npm run dev --workspace=packages/cli",
+    "dev:mcp": "npm run dev --workspace=packages/mcp-server"
+  },
+  "keywords": [
+    "ai",
+    "verification",
+    "mcp",
+    "llm",
+    "intent",
+    "validation",
+    "claude",
+    "assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "vitest": "^1.0.0"
+  }
+}
